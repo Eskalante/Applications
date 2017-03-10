@@ -111,18 +111,6 @@ int main(int, char**)
 			//threshold(gg, gg, 1.0, 255.0, THRESH_BINARY);
 			//imshow("ero", gg);
 			addWeighted(frame, 0.5, gg, 0.5, 0, frame);
-
-			/*for (int i = 0; i < frame.rows; i++) {
-				for (int j = 0; j < frame.cols; j++) {
-					if (fgMaskMOG2.at<unsigned char>(i, j) > 0x00) {
-						unsigned char tmp = frame.at<Vec3b>(i, j)[1];
-						frame.at<Vec3b>(i, j)[0] = 0x255;
-						frame.at<Vec3b>(i, j)[1] = frame.at<Vec3b>(i, j)[2];
-						frame.at<Vec3b>(i, j)[2] = tmp;
-					}
-				}
-			}*/
-			
 		}
 		if (bgss) {
 			if (GetAsyncKeyState(VK_SNAPSHOT)) {

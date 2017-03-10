@@ -187,6 +187,7 @@ int main() {
 
 
 	while (!exitapp) {
+		// openfile
 		if (click) {
 			if (cur.x <= 99 &&
 				cur.x >= 0 &&
@@ -197,6 +198,7 @@ int main() {
 				click = false;
 			}
 		}
+		// savefile
 		if (click) {
 			if (cur.x <= 199 &&
 				cur.x >= 100 &&
@@ -207,6 +209,7 @@ int main() {
 				click = false;
 			}
 		}
+		// exit
 		if (click) {
 			if (cur.x <= 299 &&
 				cur.x >= 200 &&
@@ -215,6 +218,7 @@ int main() {
 				exitapp = true;
 			}
 		}
+		// flipping
 		if (click) {
 			if (cur.x <= 149 &&
 				cur.x >= 0 &&
@@ -223,6 +227,7 @@ int main() {
 				mode = true;
 			}
 		}
+		// copying
 		if (click) {
 			if (cur.x <= 299 &&
 				cur.x >= 150 &&
