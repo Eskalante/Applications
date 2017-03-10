@@ -1,9 +1,0 @@
-﻿  main.cpp
-d:\projekty\applications\military\military\main.cpp(108): warning C4305: 'argument': truncation from 'int' to 'uchar'
-d:\projekty\applications\military\military\main.cpp(108): warning C4309: 'argument': truncation of constant value
-d:\projekty\applications\military\military\main.cpp(128): warning C4305: '=': truncation from 'int' to 'uchar'
-d:\projekty\applications\military\military\main.cpp(128): warning C4309: '=': truncation of constant value
-d:\projekty\applications\military\military\main.cpp(158): warning C4305: '=': truncation from 'int' to 'uchar'
-d:\projekty\applications\military\military\main.cpp(158): warning C4309: '=': truncation of constant value
-  military.vcxproj -> D:\projekty\Applications\Military\x64\Debug\military.exe
-  military.vcxproj -> D:\projekty\Applications\Military\x64\Debug\military.pdb (Full PDB)

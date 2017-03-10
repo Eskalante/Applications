@@ -1,8 +1,0 @@
-﻿  main.cpp
-main.cpp(108): warning C4305: 'argument': truncation from 'int' to 'uchar'
-main.cpp(108): warning C4309: 'argument': truncation of constant value
-main.cpp(140): warning C4305: '=': truncation from 'int' to 'uchar'
-main.cpp(140): warning C4309: '=': truncation of constant value
-main.cpp(170): warning C4305: '=': truncation from 'int' to 'uchar'
-main.cpp(170): warning C4309: '=': truncation of constant value
-opencv_world310.lib(opencv_world310.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'

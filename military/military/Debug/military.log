@@ -1,4 +1,0 @@
-﻿  main.cpp
-e:\1_praca\0_vyskum\1_main\military\military\military\main.cpp(92): warning C4305: '=': truncation from 'int' to 'uchar'
-e:\1_praca\0_vyskum\1_main\military\military\military\main.cpp(92): warning C4309: '=': truncation of constant value
-Debug\main.obj : fatal error LNK1112: module machine type 'X86' conflicts with target machine type 'x64'
