@@ -27,15 +27,6 @@ cv::Mat hist(cv::Mat input, double max) {
 	cv::minMaxLoc(input, &minVal, &maxVal, NULL, NULL);
 
 	minVal = 65535;
-	/*for (i = 0; i<output.cols; i++) {
-		for (j = 0; j<output.rows; j++) {
-			if (output.at<T>(j, i)>(T)0) {
-				if (output.at<T>(j, i)<minVal) {
-					minVal = output.at<T>(j, i);
-				}
-			}
-		}
-	}*/
 
 	for (i = 0; i<output.cols; i++) {
 		for (j = 0; j<output.rows; j++) {
@@ -319,24 +310,6 @@ int main(int argc, char* argv[]) {
 				smallFin.copyTo(fin(cv::Rect(0, 0, smallFin.cols, smallFin.rows)), logoMask);
 			}
 		}
-		/*for (int i = 0; i < tmp.rows; i++) {
-			for (int j = 0; j < tmp.cols; j++) {
-				double depth = tmp.at<ushort>(i, j);
-				double newMax = iDist + (iRange / 2.0);
-				double newMin = iDist - (iRange / 2.0);
-				int stepD = ((int)iRange+(int)newMin) / iLevel;
-				int stepH = iLevelMax / iLevel;
-				int hue = stepH*(((int)depth + (int)newMin) / stepD);
-				if (hue == 0) {
-					pixelIN.at<Vec3b>(0, 0) = Vec3b((uchar)hue, 200, 0);
-				}
-				else {
-					pixelIN.at<Vec3b>(0, 0) = Vec3b((uchar)hue, 255, 255);
-				}
-				cvtColor(pixelIN, pixelOUT, CV_HSV2BGR);
-				fin.at<Vec3b>(i, j) = pixelOUT.at<Vec3b>(0, 0);
-			}
-		}*/
 
 		
 		//if (edge.cols > 10 && edge.rows > 10)
