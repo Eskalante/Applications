@@ -1,0 +1,5 @@
+﻿  main.cpp
+d:\projekty\tools\tools\texturer\texturer\main.cpp(108): warning C4101: 'hf': unreferenced local variable
+d:\projekty\tools\tools\texturer\texturer\main.cpp(142): warning C4101: 'hf': unreferenced local variable
+  Texturer.vcxproj -> D:\projekty\tools\Tools\Texturer\x64\Debug\Texturer.exe
+  Texturer.vcxproj -> D:\projekty\tools\Tools\Texturer\x64\Debug\Texturer.pdb (Partial PDB)

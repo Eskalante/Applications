@@ -1,0 +1,10 @@
+﻿  main.cpp
+main.cpp(108): warning C4101: 'hf': unreferenced local variable
+main.cpp(142): warning C4101: 'hf': unreferenced local variable
+  Generating code
+  4 of 162 functions ( 2.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    6 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Texturer.vcxproj -> D:\projekty\tools\Tools\Texturer\x64\Release\Texturer.exe
+  Texturer.vcxproj -> D:\projekty\tools\Tools\Texturer\x64\Release\Texturer.pdb (Full PDB)
